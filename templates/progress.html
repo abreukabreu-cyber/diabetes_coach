@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="bg-white shadow rounded-xl p-6">
+  <h1 class="text-2xl font-semibold mb-4">Your Progress</h1>
+  <div class="mb-6">
+    <p class="font-semibold mb-1">Week 1</p>
+    <div class="w-full bg-gray-200 rounded h-3 mb-1">
+      <div class="bg-emerald-600 h-3 rounded" style="width: {{ (w1/7*100) if w1 else 0 }}%"></div>
+    </div>
+    <p class="text-sm text-gray-600">{{ w1 }}/7 days completed</p>
+  </div>
+  <div>
+    <p class="font-semibold mb-1">Week 2</p>
+    <div class="w-full bg-gray-200 rounded h-3 mb-1">
+      <div class="bg-indigo-600 h-3 rounded" style="width: {{ (w2/7*100) if w2 else 0 }}%"></div>
+    </div>
+    <p class="text-sm text-gray-600">{{ w2 }}/7 days completed</p>
+  </div>
+</div>
+{% endblock %}
+<div class="mt-6">
+  <p class="font-semibold mb-1">Week 3</p>
+  <div class="w-full bg-gray-200 rounded h-3 mb-1">
+    <div class="bg-indigo-600 h-3 rounded" style="width: {{ (w3/7*100) if w3 else 0 }}%"></div>
+  </div>
+  <p class="text-sm text-gray-600">{{ w3 }}/7 days completed</p>
+</div>
+<div class="mt-6">
+  <p class="font-semibold mb-1">Week 4</p>
+  <div class="w-full bg-gray-200 rounded h-3 mb-1">
+    <div class="bg-indigo-600 h-3 rounded" style="width: {{ (w4/7*100) if w4 else 0 }}%"></div>
+  </div>
+  <p class="text-sm text-gray-600">{{ w4 }}/7 days completed</p>
+</div>
