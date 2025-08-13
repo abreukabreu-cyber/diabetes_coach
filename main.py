@@ -210,3 +210,9 @@ if __name__ == "__main__":
     setup()
     # inicia o servidor
     app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)), debug=False)
+    # garante que DB e tasks.json existam quando rodar via gunicorn no Render
+try:
+    setup()
+except Exception as e:
+    print("setup() skipped:", e)
+
