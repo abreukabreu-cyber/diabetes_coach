@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="bg-white shadow rounded-xl p-6">
+  <div class="flex justify-between items-center mb-4">
+    <h1 class="text-2xl font-semibold">Week {{ week }} — Day {{ day }}</h1>
+    <div class="text-sm text-gray-500">User: {{ user }}</div>
+  </div>
+
+  <div class="w-full bg-gray-200 rounded h-3 mb-4">
+    <div class="bg-indigo-600 h-3 rounded" style="width: {{ progress_pct }}%"></div>
+  </div>
+  <p class="text-sm text-gray-600 mb-6">Progress: {{ completed }}/{{ total_days }} days</p>
+
+  <h2 class="font-semibold mb-2">Today's Tasks</h2>
+  <ul class="list-disc pl-6 space-y-4 mb-6">
+    {% for t in tasks %}
+      {% if t is string %}
+        <li>{{ t }}</li>
+      {% elif t is mapping %}
+        <li class="list-none">
+          <div class="font-medium">• {{ t.task }}</div>
+
+          <div class="text-xs text-gray-600 mt-1 space-y-1">
+            {% if t.why %}<div><span class="font-semibold">Why:</span> {{ t.why }}</div>{% endif %}
+            {% if t.swap %}<div><span class="font-semibold">Swap:</span> {{ t.swap }}</div>{% endif %}
+            {% if t.effort or t.impact %}
+              <div class="text-gray-500">⏱ {{ t.effort or "—" }} min · 🩸 {{ t.impact or "—" }}</div>
+            {% endif %}
+          </div>
+        </li>
+      {% else %}
+        <li>{{ t }}</li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+
+  <form method="post" action="/complete_day">
+    <input type="hidden" name="week" value="{{ week }}">
+    <input type="hidden" name="day" value="{{ day }}">
+    <button class="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded">Mark day as complete</button>
+  </form>
+</div>
+{% endblock %}
