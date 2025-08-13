@@ -1,0 +1,485 @@
+{
+  "weeks": {
+    "1": [
+      [
+        "Drink warm water on waking",
+        {
+          "task": "5 min morning light",
+          "why": "Signals morning to your body clock; improves sleep and glucose.",
+          "effort": 5,
+          "impact": "medium"
+        },
+        {
+          "task": "5–10 min walk after lunch",
+          "swap": "Do 2×10 chair sit-to-stands if you can’t go out",
+          "effort": 10,
+          "impact": "medium"
+        }
+      ],
+      [
+        {
+          "task": "Swap sweet chai for unsweetened tea",
+          "why": "Cuts a quick sugar hit without losing the habit.",
+          "impact": "medium"
+        },
+        {
+          "task": "5 min walk after lunch",
+          "effort": 5,
+          "impact": "low"
+        },
+        {
+          "task": "Plate 50/25/25 at main meal",
+          "why": "Half veggies, quarter protein, quarter carbs lowers glucose spikes.",
+          "impact": "high"
+        }
+      ],
+      [
+        {
+          "task": "Add cinnamon to a snack",
+          "why": "Cinnamon can help blunt post-meal glucose rise.",
+          "effort": 1,
+          "impact": "low"
+        },
+        {
+          "task": "Yogurt + cucumber or a handful of peanuts",
+          "why": "Protein + fat slow carb absorption.",
+          "effort": 3,
+          "impact": "medium"
+        },
+        {
+          "task": "Hydration: +500 ml today",
+          "effort": 3,
+          "impact": "low"
+        }
+      ],
+      [
+        {
+          "task": "Reduce rice by ~25% (smaller cup)",
+          "why": "Smaller carb load = smaller glucose peak.",
+          "impact": "high"
+        },
+        {
+          "task": "Start meal with salad/veggies",
+          "why": "Fiber first blunts glucose rise.",
+          "impact": "high"
+        },
+        {
+          "task": "5 min walk after dinner",
+          "effort": 5,
+          "impact": "low"
+        }
+      ],
+      [
+        {
+          "task": "Dal with extra veggies",
+          "why": "More fiber and protein for steadier glucose.",
+          "impact": "medium"
+        },
+        {
+          "task": "Cook with ghee instead of refined seed oil today",
+          "why": "Stable cooking fat; avoids ultra-refined oils.",
+          "impact": "low"
+        },
+        {
+          "task": "Sleep 30 min earlier",
+          "why": "Short sleep worsens insulin sensitivity.",
+          "effort": 30,
+          "impact": "high"
+        }
+      ],
+      [
+        {
+          "task": "Try a millet (ragi/bajra) once instead of rice/roti",
+          "why": "Higher fiber; flatter glucose curve.",
+          "impact": "medium"
+        },
+        {
+          "task": "Add protein at breakfast (paneer/eggs/besan chilla)",
+          "why": "Protein at breakfast improves appetite control.",
+          "impact": "medium"
+        },
+        {
+          "task": "Hydration timer: 3 check-ins",
+          "effort": 3,
+          "impact": "low"
+        }
+      ],
+      [
+        {
+          "task": "Review the week: pick 1 habit to keep",
+          "effort": 5,
+          "impact": "medium"
+        },
+        {
+          "task": "Prep next week’s shopping list",
+          "effort": 10,
+          "impact": "low"
+        },
+        {
+          "task": "Gentle 10-min walk",
+          "effort": 10,
+          "impact": "low"
+        }
+      ]
+    ],
+    "2": [
+      [
+        {
+          "task": "5-min walk after 2 meals",
+          "why": "After-meal movement reduces glucose spikes.",
+          "effort": 10,
+          "impact": "high"
+        },
+        {
+          "task": "Track steps (manual)",
+          "why": "Tracking raises awareness so you move more.",
+          "effort": 2,
+          "impact": "low"
+        },
+        {
+          "task": "Stretch calves 2×",
+          "why": "Helps walking comfort and circulation.",
+          "effort": 4,
+          "impact": "low"
+        }
+      ],
+      [
+        {
+          "task": "Split 15-min walk (3×5 min)",
+          "why": "Short bouts are easier to fit in.",
+          "effort": 15,
+          "impact": "medium"
+        },
+        {
+          "task": "Take stairs once today (up or down)",
+          "swap": "Walk one extra block instead",
+          "effort": 3,
+          "impact": "low"
+        },
+        {
+          "task": "Drink 300 ml water before dinner",
+          "effort": 2,
+          "impact": "low"
+        }
+      ],
+      [
+        {
+          "task": "10-min walk after largest carb meal",
+          "why": "Blunts the biggest daily peak.",
+          "effort": 10,
+          "impact": "high"
+        },
+        {
+          "task": "Wall push-ups 2×10 or knee plank 2×20 s",
+          "swap": "Counter push-ups 2×10",
+          "effort": 6,
+          "impact": "medium"
+        },
+        {
+          "task": "Hydration: +500 ml",
+          "effort": 3,
+          "impact": "low"
+        }
+      ],
+      [
+        {
+          "task": "Walk while on one phone call (10 min)",
+          "effort": 10,
+          "impact": "medium"
+        },
+        {
+          "task": "Stand 15 min mid-morning",
+          "why": "Breaking up sitting improves glucose.",
+          "effort": 15,
+          "impact": "medium"
+        },
+        {
+          "task": "Evening mobility 5 min",
+          "swap": "Neck/shoulder rolls 2×1 min",
+          "effort": 5,
+          "impact": "low"
+        }
+      ],
+      [
+        {
+          "task": "Mini-circuit: 3 rounds (10 sit-to-stand, 10 calf raises, 10 shoulder rolls)",
+          "swap": "Do 2 rounds",
+          "effort": 10,
+          "impact": "medium"
+        },
+        {
+          "task": "Post-dinner stroll 10 min",
+          "effort": 10,
+          "impact": "high"
+        },
+        {
+          "task": "Sleep 15 min earlier",
+          "effort": 15,
+          "impact": "medium"
+        }
+      ],
+      [
+        {
+          "task": "Easy walk 20–30 min",
+          "swap": "2×10-min walks",
+          "effort": 20,
+          "impact": "high"
+        },
+        {
+          "task": "Protein snack before walk (yogurt or peanuts)",
+          "why": "Protein steadies energy.",
+          "effort": 3,
+          "impact": "low"
+        },
+        {
+          "task": "Hip stretch 5 min",
+          "effort": 5,
+          "impact": "low"
+        }
+      ],
+      [
+        {
+          "task": "Review steps average; aim +10% next week",
+          "effort": 5,
+          "impact": "medium"
+        },
+        {
+          "task": "Pick 3 movement anchors (after lunch, after dinner, on calls)",
+          "effort": 5,
+          "impact": "medium"
+        },
+        {
+          "task": "Plan one fun route/park walk 15 min",
+          "effort": 15,
+          "impact": "low"
+        }
+      ]
+    ],
+    "3": [
+      [
+        {
+          "task": "Plate 50/25/25 (half veg, 1/4 protein, 1/4 carbs)",
+          "why": "Smaller carb load lowers spikes.",
+          "impact": "high"
+        },
+        {
+          "task": "Measure cooked rice to 1/2 cup at lunch",
+          "impact": "high",
+          "effort": 1
+        },
+        {
+          "task": "Add one bowl of dal or paneer",
+          "impact": "medium",
+          "effort": 5
+        }
+      ],
+      [
+        {
+          "task": "Swap rice once for 2 millet rotis (ragi/jowar)",
+          "why": "More fiber; steadier glucose.",
+          "impact": "medium"
+        },
+        {
+          "task": "Pair carbs with protein at every meal",
+          "why": "Protein slows absorption.",
+          "impact": "high"
+        },
+        {
+          "task": "5–10 min walk after two meals",
+          "effort": 10,
+          "impact": "high"
+        }
+      ],
+      [
+        {
+          "task": "Breakfast: besan chilla or veggie omelette",
+          "impact": "medium"
+        },
+        {
+          "task": "No fruit juice; whole fruit + 10 nuts",
+          "why": "Fiber + fat reduce spike.",
+          "impact": "high"
+        },
+        {
+          "task": "Hydration target: +500 ml",
+          "effort": 3,
+          "impact": "low"
+        }
+      ],
+      [
+        {
+          "task": "Start meals with raw salad or cucumber raita",
+          "why": "Fiber first blunts spikes.",
+          "impact": "high"
+        },
+        {
+          "task": "Reduce bread/naan by 50% this meal",
+          "impact": "high"
+        },
+        {
+          "task": "Slow eating: 10+ chews per bite",
+          "impact": "medium"
+        }
+      ],
+      [
+        {
+          "task": "Smart snack: roasted chana or peanuts (one handful)",
+          "impact": "medium"
+        },
+        {
+          "task": "Skip biscuits/cookies today",
+          "impact": "medium"
+        },
+        {
+          "task": "Read labels: <5 g sugar per 100 g",
+          "impact": "medium"
+        }
+      ],
+      [
+        {
+          "task": "Eating out: choose tandoori/grilled; avoid sweet sauces",
+          "impact": "medium"
+        },
+        {
+          "task": "Share rice or order small portion",
+          "impact": "medium"
+        },
+        {
+          "task": "Skip soda; water or sparkling only",
+          "impact": "high"
+        }
+      ],
+      [
+        {
+          "task": "Prep a pot of dal + cut veggies for 3 meals",
+          "effort": 20,
+          "impact": "medium"
+        },
+        {
+          "task": "Restock spices for quick stir-fries",
+          "effort": 5,
+          "impact": "low"
+        },
+        {
+          "task": "Weekly review + plan 3 carb-smart dinners",
+          "effort": 10,
+          "impact": "medium"
+        }
+      ]
+    ],
+    "4": [
+      [
+        {
+          "task": "Choose a fixed sleep & wake time (e.g., 23:00–07:00)",
+          "why": "Consistency strengthens circadian rhythm.",
+          "impact": "high"
+        },
+        {
+          "task": "Get 5–10 min of morning light",
+          "effort": 10,
+          "impact": "medium"
+        },
+        {
+          "task": "No phone in bed",
+          "impact": "medium"
+        }
+      ],
+      [
+        {
+          "task": "Caffeine cutoff: none after 2 pm",
+          "impact": "medium"
+        },
+        {
+          "task": "Hydration: +500 ml by afternoon",
+          "effort": 3,
+          "impact": "low"
+        },
+        {
+          "task": "10-min easy walk after work",
+          "effort": 10,
+          "impact": "medium"
+        }
+      ],
+      [
+        {
+          "task": "Evening wind-down: dim lights 60–90 min before bed",
+          "impact": "high"
+        },
+        {
+          "task": "Warm shower or foot soak",
+          "effort": 10,
+          "impact": "low"
+        },
+        {
+          "task": "Breathing 4-7-8: 3 rounds",
+          "effort": 3,
+          "impact": "medium"
+        }
+      ],
+      [
+        {
+          "task": "Last meal ≥3 h before bed",
+          "impact": "high"
+        },
+        {
+          "task": "Make dinner: protein + veggies first",
+          "impact": "high"
+        },
+        {
+          "task": "Skip sugary desserts tonight",
+          "impact": "medium"
+        }
+      ],
+      [
+        {
+          "task": "Stress dump: 5-min journal/worry list",
+          "effort": 5,
+          "impact": "medium"
+        },
+        {
+          "task": "Box breathing 3×1 min",
+          "effort": 3,
+          "impact": "low"
+        },
+        {
+          "task": "10-min gentle stretch or yoga",
+          "effort": 10,
+          "impact": "medium"
+        }
+      ],
+      [
+        {
+          "task": "Bedroom: cool, dark, quiet (fan/earplugs if needed)",
+          "impact": "high"
+        },
+        {
+          "task": "Screens off 30 min before bed",
+          "effort": 30,
+          "impact": "high"
+        },
+        {
+          "task": "Read 10 min (paper/Kindle)",
+          "effort": 10,
+          "impact": "low"
+        }
+      ],
+      [
+        {
+          "task": "Weekly review: choose 2 sleep habits to keep",
+          "effort": 5,
+          "impact": "medium"
+        },
+        {
+          "task": "Plan a consistent schedule for next week",
+          "effort": 5,
+          "impact": "medium"
+        },
+        {
+          "task": "Prep 2 easy dinners",
+          "effort": 10,
+          "impact": "low"
+        }
+      ]
+    ]
+  }
+}
